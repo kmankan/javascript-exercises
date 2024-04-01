@@ -14,3 +14,7 @@ leapYears(1985) // is not a leap year: returns false
 
 ## Hints
 - use an `if` statement and `&&` to make sure all the conditions are met properly
+
+Conditons: 
+year % 4 === 0 && 
+year % 100 !== 0 (unless year % 400 === 0)
